@@ -1,0 +1,91 @@
+
+:root {
+    --main: rgba(41, 18, 95, 0.6)
+}
+
+@font-face {
+    src: url('Anurati-Regular.otf') format('opentype');
+    font-family: "anu";
+}
+@font-face {
+    src: url('SpaceMono-Bold.ttf') format('truetype');
+    font-family: "space";
+}
+
+
+body {
+    background-color: blue;
+    width: 100%;
+    margin: 0px;
+}
+
+.vid {
+   width: 100%;
+   bottom: 0;
+   background-size: cover;
+   position: absolute;
+   z-index: -1;
+}
+
+.navbar {
+    display:
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   z-index: 1;
+   justify-content: center;
+   align-items: center;
+}
+
+.spfr {
+   text-align: center;
+   width: 50%;
+}
+
+.spfr p {
+    background-color: var(--main);
+    border-radius: 10px;
+    border: 4px outset rgb(21, 241, 21);
+    color: rgb(21, 241, 21);
+    text-shadow: 5px 5px black;
+    font-family: "anu";
+    font-size: 6rem;
+}
+
+.misslog {
+   width: 60%;
+}
+
+.misslog p {
+    font-family: "space";
+    font-size: 22px;
+    color: rgb(21, 241, 21);
+    background-color: var(--main);
+    border-radius: 10px;
+    border: 3px inset rgb(21, 241, 21);
+    text-shadow: 3px 3px black;
+}
+
+.signup {
+    padding: 50px;
+}
+
+.signup a{
+    border-radius: 10px;
+    background-color: var(--main);
+    color: rgb(21, 241, 21);
+    border: 3px outset rgb(21, 241, 21);
+    font-family: "space";
+    font-size: 1.5vw;
+    padding: 5px 15px;
+}
+
+.signup a:hover {
+    text-shadow: 3px 3px black ;
+    background-color: var(--main);
+    color: green;
+    border: 2px inset rgb(21, 241, 21);
+}
+
